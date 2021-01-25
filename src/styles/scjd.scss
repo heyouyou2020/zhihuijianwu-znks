@@ -1,0 +1,138 @@
+.uploadShow{
+    list-style: none;
+    li{
+      float: left;
+      margin-right: 10px;
+      img{
+        vertical-align: middle;
+      }
+    }
+  }
+  .upload-demo{
+    display: flex;
+  }
+  .showLineTime{
+    .timeLine {
+      margin: 0;
+      font-size: 14px;
+      list-style: none;
+      li{
+        position: relative;
+        padding-bottom: 15px;
+        .timeline-item__tail{
+          position: absolute;
+          left: 4px;
+          height: 100%;
+          border-left: 2px dashed #c7d9ea;
+        }
+        &:last-child{
+          .timeline-item__tail{
+            height: 50%;
+          }
+        }
+        .timeline-itm-date{
+          color: #8ea0be;
+          width: auto;
+          display: inline-block;
+          position: absolute;
+          left: -21px;
+          text-align: center;
+          top: 20%;
+          background-color: #fff;
+          p{
+            font-size: 22px;
+          }
+        }
+        .timeline-wrapper{
+          position: relative;
+          padding-left: 45px;
+          top: -3px;
+          .timeline-box{
+            padding: 15px 10px;
+            color: #7189b7;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #c7d9ea;
+            background-color: #fff;
+            overflow: hidden;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            em,span{
+              font-style:normal;font-size:30px;position:absolute;left:36px;top:30%;color:#c7d9ea;
+            }
+            span{
+              left:37px;color:white;
+            }
+            h4{
+              color: #4a5871;
+              padding-bottom: 5px;
+              margin: 0;
+            }
+            div{
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sendMessage{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999;
+    .sendImg{
+      width:82px ;
+      cursor: pointer;
+    }
+  }
+  .chatList{
+    //padding: 15px;
+    padding-top: 15px;
+    .chatItem{
+      margin-bottom: 15px;
+      .chatTitle{
+        color: #4f5e7b;
+        font-size: 16px;
+        margin-bottom: 10px;
+        .imgBox{
+          width: 23px;
+          height: 23px;
+          display: inline-block;
+          margin-left: 5px;
+          img{
+            width: 100%;
+            height: 100%;
+            vertical-align: middle;
+          }
+        }
+        .chatDate{
+          color: #7785a0;
+          font-size: 14px;
+          margin-left: 8px;
+        }
+      }
+      .chatText{
+        width: 448px;
+        background-color: #eff5fb;
+        border-radius: 6px;
+        color: #4f5e7b;
+        padding: 10px;
+        margin-left: 30px;
+      }
+    }
+    .chatItem2{
+      float: right;
+      .chatTitle{
+        text-align: right;
+      }
+      .chatText{
+        margin-right: 30px;
+        margin-left: 0;
+      }
+    }
+  }
+  .btnSend{
+    float: right;
+    margin-top: 15px;
+  }

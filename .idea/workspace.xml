@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f033d0d1-ef20-42c0-857b-3dc0fdc409b4" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1gX6Sev996QppaHXHhYKFYGpact" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/router" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bmrj\zyjw\zhjw-system\frontend-web\src\router" />
+      <recent name="D:\bmrj\zyjw\zhjw-system\frontend-web\src\store\modules" />
+      <recent name="D:\bmrj\zyjw\zhjw-system\frontend-web\src\plugin" />
+      <recent name="D:\bmrj\zyjw\zhjw-system\frontend-web\src\views\xsjcjd\scdbfz" />
+      <recent name="D:\bmrj\zyjw\zhjw-system\frontend-web\src\components\Charts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\wuqn\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f033d0d1-ef20-42c0-857b-3dc0fdc409b4" name="默认的" comment="" />
+      <created>1598248592694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598248592694</updated>
+      <workItem from="1598248599970" duration="30000" />
+      <workItem from="1598248635026" duration="3465000" />
+      <workItem from="1598252564440" duration="9761000" />
+      <workItem from="1598315592479" duration="14821000" />
+      <workItem from="1598403013156" duration="17497000" />
+      <workItem from="1598435212738" duration="1241000" />
+      <workItem from="1598488404291" duration="24567000" />
+      <workItem from="1598574743334" duration="26209000" />
+      <workItem from="1598834800942" duration="27639000" />
+      <workItem from="1598920475471" duration="27921000" />
+      <workItem from="1599006730102" duration="17492000" />
+      <workItem from="1599093771198" duration="28085000" />
+      <workItem from="1599179644773" duration="4760000" />
+      <workItem from="1599184577431" duration="22493000" />
+      <workItem from="1599439309028" duration="23714000" />
+      <workItem from="1599469233346" duration="6515000" />
+      <workItem from="1599525505859" duration="11118000" />
+      <workItem from="1599612150943" duration="24540000" />
+      <workItem from="1599698193542" duration="24634000" />
+      <workItem from="1599784952852" duration="26684000" />
+      <workItem from="1599872617375" duration="27280000" />
+      <workItem from="1600044286591" duration="22920000" />
+      <workItem from="1600130659743" duration="26730000" />
+      <workItem from="1600216831818" duration="21000" />
+      <workItem from="1600216923682" duration="28886000" />
+      <workItem from="1600303464159" duration="10512000" />
+      <workItem from="1600322897322" duration="8440000" />
+      <workItem from="1600389452741" duration="29222000" />
+      <workItem from="1600648700244" duration="22816000" />
+      <workItem from="1600916975631" duration="9869000" />
+      <workItem from="1600994620045" duration="4893000" />
+      <workItem from="1601275139594" duration="101000" />
+      <workItem from="1601275347396" duration="5261000" />
+      <workItem from="1601345032939" duration="8183000" />
+      <workItem from="1601448610363" duration="3293000" />
+      <workItem from="1602314211768" duration="7752000" />
+      <workItem from="1602463396430" duration="11479000" />
+      <workItem from="1602550355219" duration="8509000" />
+      <workItem from="1602636773620" duration="9980000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/calSupervise/reviewArrest/arrestReview.vue</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/xsjcjd/yjajfz/ajxxtp.vue</url>
+          <line>80</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+</project>

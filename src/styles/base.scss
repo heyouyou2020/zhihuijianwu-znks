@@ -1,0 +1,163 @@
+/* 避免因子元素浮动而导致的父元素高度缺失能问题 */
+.clearFix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .clearFix { zoom: 1; }
+.fl{
+  float: left !important;
+}
+.fr{
+  float: right !important;
+}
+/* 内边距样式，作用于元素的上下内边距，上下各具有 n, m, w 三个级别 */
+.p0{padding: 0 !important;}
+.p5 { padding: 5px !important; }
+.p10 { padding: 10px !important; }
+.p15 { padding: 15px !important; }
+.p20 { padding: 20px !important; }
+.p22 { padding: 22px !important; }
+.p30 { padding: 30px !important; }
+
+.pt5 { padding-top: 5px !important; }
+.pt10 { padding-top: 10px !important; }
+.pt15 { padding-top: 15px !important; }
+.pt20 { padding-top: 20px !important; }
+.pt25 { padding-top: 25px !important; }
+.pt30 { padding-top: 30px !important; }
+.pt80 { padding-top: 80px !important; }
+
+.pb5 { padding-bottom: 5px !important; }
+.pb10 { padding-bottom: 10px !important; }
+.pb15 { padding-bottom: 15px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.pb30 { padding-bottom: 30px !important; }
+
+.ptb5 { padding: 5px 0 !important; }
+.ptb10 { padding: 10px 0 !important; }
+.ptb15 { padding: 15px 0 !important; }
+.ptb20 { padding: 20px 0 !important; }
+.ptb30 { padding: 30px 0 !important; }
+
+.pr50{ padding-right: 50px !important;}
+.plr5 { padding: 0 5px !important; }
+.plr10 { padding: 0 10px !important; }
+.plr15 { padding: 0 15px !important; }
+.plr20 { padding: 0 20px !important; }
+.plr30 { padding: 0 30px !important; }
+.plr60{padding: 0 60px !important;}
+/* 外边距样式，作用于元素的上下外边距，上下各具有 n, m, w 三个级别 */
+.m5 { margin: 5px !important; }
+.m10 { margin: 10px !important; }
+.m15 { margin: 15px !important; }
+.m20 { margin: 20px !important; }
+.m30 { margin: 30px !important; }
+
+.mt5 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt15 { margin-top: 15px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt25 {margin-top: 25px !important;}
+.mt40{ margin-top: 40px !important;}
+.mt50 {margin-top: 50px !important;}
+.mt70 {margin-top: 70px !important;}
+
+.mb5 { margin-bottom: 5px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb15 { margin-bottom: 15px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb30 { margin-bottom: 30px !important; }
+.mb50 { margin-bottom: 50px !important; }
+
+.mr5 { margin-right: 5px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr15 { margin-right: 15px !important; }
+.mr20 { margin-right: 20px !important; }
+.mr25 { margin-right: 25px !important; }
+.mr30 { margin-right: 30px !important; }
+.mr40 { margin-right: 40px !important;}
+.mr50 { margin-right: 60px !important;}
+
+.ml5 { margin-left: 5px !important; }
+.ml10 { margin-left: 10px !important; }
+.ml15 { margin-left: 15px !important; }
+.ml20 { margin-left: 20px !important; }
+.ml30 { margin-left: 30px !important; }
+.ml40 { margin-left: 40px !important; }
+
+.mtb5 { margin: 5px 0 !important; }
+.mtb10 { margin: 10px 0 !important; }
+.mtb15 { margin: 15px 0 !important; }
+.mtb20 { margin: 20px 0 !important; }
+.mtb30 { margin: 30px 0 !important; }
+
+.mlr5 { margin: 0 5px !important; }
+.mlr10 { margin: 0 10px !important; }
+.mlr15 { margin: 0 15px !important; }
+.mlr20 { margin: 0 20px !important; }
+.mlr30 { margin: 0 30px !important; }
+.mlr40 { margin: 0 40px !important; }
+.text-ellipsis{
+  text-overflow :ellipsis; /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+  white-space :nowrap; /*让文字不换行*/
+  overflow : hidden; /*超出要隐藏*/
+  width: 100%;
+}
+
+// 背景
+.bg-white{
+  background: #fff;
+}
+
+// flex 布局
+.flex{
+  display: flex;
+  align-items: center;
+}
+.flex-1{
+  flex: 1
+}
+.flex-space-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// 文本 居中 靠右 靠左
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+
+.red{
+  color: #f75e5e
+}
+// 框
+.bese-card {
+  border: 1px solid #a9c4df;
+  background: #fff;
+}
+// 描述标题title
+.base-desc-title{
+  color: #4f5e7b;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  span{
+    margin-left: 7px;
+  }
+}
+  // 统一标题 带border
+  .base-border-title{
+    border-left: 2px solid #1a5dc7;
+    padding-left: 7px;
+    font-size: 16px;
+    color: #2d405e;
+  }

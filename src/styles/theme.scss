@@ -1,0 +1,146 @@
+.el-input--medium .el-input__inner {
+  height: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  border: solid 1px #a9c4df;
+}
+// mry 影响按钮  背景色删除
+.el-button--medium {
+  padding: 8px 34px;
+  //   background-color: #1b9dff;
+  border-radius: 2px;
+}
+
+.el-table th.is-leaf,
+.el-table td {
+  border-bottom: 1px solid #cbdcec;
+}
+.el-table {
+  color: #4f5e7b;
+}
+.el-table--medium th,
+.el-table--medium td {
+  padding: 4px 0;
+}
+.el-table thead {
+  color: #2d405e;
+  th {
+    border-top: 1px solid #cbdcec;
+    &:nth-last-child(2) {
+      border-right: none;
+    }
+  }
+}
+.el-table th > .cell {
+  border-right: 1px solid #cbdcec;
+}
+.el-table thead th:nth-last-child(2) > .cell {
+  border-right: none;
+}
+.el-table--group::after,
+.el-table--border::after,
+.el-table::before {
+  background-color: initial;
+}
+.el-button--text {
+  color: #4084ef;
+  font-size: 14px;
+}
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #f3f6f8;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: #f3f6f8;
+}
+.el-table__body tr.current-row > td {
+  background-color: #c1c4c6;
+}
+.el-form-item__label {
+  color: #4f5e7b;
+  font-weight: normal;
+}
+.el-progress-bar__outer {
+  border-radius: 8px;
+  background-color: #e9f4f1;
+}
+.el-submenu__icon-arrow{
+  right: 5px !important;
+}
+.dashboard-container {
+  min-height: calc(100vh - 119px);
+  background-color: #fff;
+  border: solid 1px #a9c4df;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-bottom: 54px;
+}
+.pageBox {
+  // position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  .pagination-container {
+    padding: 10px 16px !important;
+  }
+}
+.dialog-render {
+  .el-dialog__header {
+    .el-dialog__title {
+      color: #fff;
+    }
+    background-color: #4084f0;
+    padding: 8px;
+    .el-dialog__headerbtn .el-dialog__close {
+      color: #fff;
+    }
+    .el-dialog__headerbtn {
+      top: 5px;
+      font-size: 26px;
+    }
+  }
+  .el-dialog__body {
+    position: relative;
+    padding: 10px;
+    min-height: 100%;
+    overflow: auto;
+    height: 100%;
+  }
+  .el-dialog__footer {
+    padding: 8px;
+    background-color: #ecf1fa;
+  }
+}
+.lineStep{
+background-color: #2269d6 !important;
+}
+// 搜索 el-form 样式  mengruyue start
+.base-search-form {
+  margin-bottom: 10px;
+  .el-form-item {
+    margin-bottom: 10px;
+  }
+  .el-form-item__label {
+    color: "#4f5e7b";
+    font-weight: normal;
+  }
+}
+// 搜索 el-form 样式  mengruyue end
+
+// reset el-tabs--border-card style
+.el-tabs--border-card {
+  &> .el-tabs__header {
+    background-color: #d7e5f9;
+    border-bottom: 1px solid #a9c4df;
+    margin: 0;
+    .el-tabs__item {
+      color: #5c79b0;
+      &.is-active{
+        color: #165ac6;
+      }
+    }
+  }
+}
+
