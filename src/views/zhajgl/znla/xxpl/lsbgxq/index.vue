@@ -96,8 +96,40 @@ export default {
         // padding-right: 100px;
         background-color: rgb(85, 134, 173);
     }
-    .tubiao{
-      width: 86%;
+  .tubiao{
+    width: 86%;
+  }
+  .title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    .wenzi{
+        width: 18%;
+        padding: 20px 10px;
+        background: #ebf3fe;
+        border: 1px solid #a9c4df;
+        .diyih{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .zongshu{
+              padding: 10px 10px;
+              font-size: 30px;
+              font-weight: 200;
+          }
+          .zengzhang{
+              padding: 10px 10px;
+              span{
+                font-size: 22px;
+                color: red;
+              }
+          }
+        }
+        .count-item{
+            padding: 0 10px;
+        }
     }
+}
 }
 </style>

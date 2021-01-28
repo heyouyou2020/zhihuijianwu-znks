@@ -73,11 +73,11 @@ export default {
     // this.getMenuLlist()废弃
     if (localStorage.getItem('zhinnegkongshenrouters') == 'false') {
       console.log('检察官登录')
-      this.routers = jianchaguanRoutes
+      this.routers = lvshiRoutes
     }
     if (localStorage.getItem('zhinnegkongshenrouters') == 'true') {
       console.log('律师登录')
-      this.routers = lvshiRoutes
+      this.routers = jianchaguanRoutes
     }
   },
   methods: {

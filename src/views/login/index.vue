@@ -9,7 +9,7 @@
         label-position="left"
       >
         <div class="title-container">
-          <div class="title"><img src="@/icons/img/login-mc.png"></div>
+          <div class="title"><img src="@/icons/img/lvshihome.png"></div>
         </div>
         <el-form-item style="margin-bottom: 20px">
           <span class="svg-container">

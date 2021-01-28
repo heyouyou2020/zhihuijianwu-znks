@@ -73,6 +73,7 @@ export default {
           this.show = true
           this.show2 = false
           this.$message.success('回复成功')
+          this.$router.go(-1)
         } 
       })
     },

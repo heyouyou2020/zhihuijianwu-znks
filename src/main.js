@@ -19,7 +19,7 @@ import Moment from 'moment'
 import VueUeditorWrap from 'vue-ueditor-wrap'
 
 import './icons' // icon
-// import './permission' // permission control
+import './permission' // permission control
 import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters

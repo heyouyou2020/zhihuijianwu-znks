@@ -180,6 +180,23 @@ export default {
         console.log(res)
         if (res.code === 0) {
           this.tongjishuju = res.data
+          this.tongjishuju.map(item => {
+            if (item.name == 'consulting') {
+              item.name = '总数'
+            }
+            if (item.name == 'interview') {
+              item.name = '网络咨询次数'
+            }
+            if (item.name == 'windowsInterview') {
+              item.name = '网络接访次数'
+            }
+            if (item.name == 'realWindowsInterview') {
+              item.name = '预约窗口次数'
+            }
+            if (item.name == 'melt') {
+              item.name = '涉访涉诉案件化解次数'
+            }
+          })
         }
       }).catch(err => {
         console.log(err)

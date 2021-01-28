@@ -440,6 +440,23 @@ export default {
       console.log(res)
       if (res.code === 0) {
         this.titledata = res.data
+        this.titledata.map(item => {
+            if (item.name == 'consulting') {
+              item.name = '总数'
+            }
+            if (item.name == 'interview') {
+              item.name = '网络咨询次数'
+            }
+            if (item.name == 'windowsInterview') {
+              item.name = '网络接访次数'
+            }
+            if (item.name == 'realWindowsInterview') {
+              item.name = '预约窗口次数'
+            }
+            if (item.name == 'melt') {
+              item.name = '涉访涉诉案件化解次数'
+            }
+          })
       }
     })
     this.$api.getlvshiwlzx({
@@ -575,7 +592,8 @@ export default {
           this.newCharts11()
         }else {
           console.log('无数据')
-          this.$message.warning('涉访涉诉暂无统计数据哦')
+          this.newCharts10()
+          this.newCharts11()
         }
       }
       
